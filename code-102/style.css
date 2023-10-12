@@ -1,38 +1,105 @@
-* {
-  border: 1px solid black;
-}
+/* *  border: 1px solid black;
+} { */
+
 body {
   font-family: 'Comic Sans MS', cursive;
+  background-color: #F8FFF4;
 }
 header h1 {
-  font-size: 30px;
-  margin-left: 50px;
-  margin-right: 50px;
+  font-size: 50px;
+  background-color: #CCE8CC;
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
+  text-indent: 70px;
+
 }
 
 nav {
   text-align: center;
+  font-size: 30px;
+  background-color: #FFDCCC;
 }
 
 a {
-  color: green;
-  padding: 50px
+  color: #427AA1;
+  padding: 20px;
 }
 
 #top-section {
   text-align: center;
-  margin-left: 50px;
-  margin-right: 50px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  font-size: 12px;
+  background-color: #FFF9EC;
+  margin-left: 175px;
+  margin-right: 175px;
+  margin-top: 20px;
+  padding-left: 70px;
+  padding-right: 70px;
+  border: 2px solid #333;
+  margin-bottom: 30px;
 }
 
 h1 {
-  font-size: 20px;
+  font-size: 30px;
 }
 
-.top-layout .bottom-layout {
-  display: flex
-  flex-wrap: wrap;
-  }
+p {
+font-size: 20px;
+}
+
+section h1 {
+  margin-left: 200px;
+  margin-right: 200px;
+  background-color: #EBF2FA;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.top-layout p {
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+
+.top-layout {  
+  width: 45%;
+  display: inline-block;
+  padding-right: 20px;
+  padding-left: 20px;
+  text-align: center;
+  margin-right: 20px;
+  margin-left: 10px;
+
+}
+
+.top-layout img {
+width:200px;
+
+}
+
+.bottom-layout {
+  width: 45%;
+  display: inline-block;
+  padding-right: 20px;
+  padding-left: 20px;
+  text-align: center;
+  margin-right: 20px;
+  margin-left: 10px;
+
+}
+
+.bottom-layout img {
+  width: 45%;
+  display: inline-block;
+  width: 300px;
+}
+
+.bottom-layout p {
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+
+
+footer {
+  text-align: center;
+}
+/* need comma between classes if you want to pull from both */
+  /* change size in css get rid of width and height in html,  */

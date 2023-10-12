@@ -1,62 +1,122 @@
 <!DOCTYPE html>
-  <html>
-    <head>
-      <title>Pawsitive Match</title>
-      <link rel="stylesheet" href="style.css"
-    </head>
-      <body>
+<html>
+  <head>
+    <title>Pawsitive Match</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <script>
+      alert("We have 10 new kittens ready for adoption!");
+      let userName = prompt("What is your name?");
+      console.log(userName);
 
-        <header>
-          <h1>Pawsitive Match</h1>
-    <nav>
+      let usersAnswer = prompt(
+        "Do you want to adopt our cats? Type Yes or No."
+      );
+
+      console.log("User typed: " + usersAnswer);
+
+      if (usersAnswer == "Yes") {
+        document.write(
+          "Welcome " +
+            userName +
+            "! Then please scroll down to check out some of our longest residents or click Adopt Now!"
+        );
+      } else if (usersAnswer == "No") {
+        document.write(
+          "Well " +
+            userName +
+            "... maybe you should google some dog adoption sites..."
+        );
+      } else {
+        document.write(
+          "Well " +
+            userName +
+            "... maybe cats are not suitable for you if you can't follow directions"
+        );
+      }
+    </script>
+
+    <header>
+      <h1>Pawsitive Match</h1>
+      <nav>
         <a href="nothing">Home</a>
         <a href="nothing">Adopt Now</a>
         <a href="nothing">Donate</a>
-        <a href="https://evidad.github.io/hello-world/code-102-notes/index.html">Contact Errol</a>
-    </nav>
-        </header>
+        <a href="https://evidad.github.io/hello-world/code-102-notes/index.html"
+          >Contact Errol</a
+        >
+      </nav>
+    </header>
 
-        <main>
-          <section id="top-section" >
-            <p>Proin euismod orci et elit sagittis, in laoreet tortor efficitur. Morbi tempor nisi at diam dapibus, et tempus neque aliquet. Nam leo nunc, accumsan id bibendum sed, varius malesuada elit. Duis lectus nulla, condimentum sed viverra id, condimentum sit amet magna. Mauris facilisis erat mauris, eu placerat urna egestas et. Nulla metus neque, pretium eget ante nec, gravida posuere sem. Quisque in urna eu dui viverra fermentum ut ac est. Vestibulum in convallis erat. Nunc pellentesque efficitur turpis sed fermentum. Curabitur sit amet mi velit. Phasellus posuere mi diam, id ultricies urna interdum vitae. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur blandit lorem sit amet augue cursus lacinia. Curabitur pretium nisi felis, eget porttitor turpis scelerisque nec. Donec ultrices nunc ut molestie molestie. Donec nunc mi, varius at nulla sit amet, feugiat aliquet elit.</p>
-          </section>
-      
-            <section class="top-layout">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/7/74/Pansy_-_SCAT_%40_Petsmart_Adoption_Centre_%28June_6_2016%29_%2827495412176%29.jpg" alt="Black and white cat called truck" width="300"/> 
-                <h1> Meet Truck</h1>  
-                <p>
-                  Curabitur consequat tortor sapien, et fringilla nibh bibendum sed. Vivamus vitae neque eu nulla eleifend pretium. Morbi consectetur ut ante id maximus. Proin erat quam.
-                </p>
-          </section>
+    <main>
+      <section id="top-section">
+        <p>
+          Proin euismod orci et elit sagittis, in laoreet tortor efficitur.
+          Morbi tempor nisi at diam dapibus, et tempus neque aliquet. Nam leo
+          nunc, accumsan id bibendum sed, varius malesuada elit. Duis lectus
+          nulla, condimentum sed viverra id, condimentum sit amet magna. Mauris
+          facilisis erat mauris, eu placerat urna egestas et. Nulla metus neque,
+          pretium eget ante nec, gravida posuere sem. Quisque in urna eu dui
+          viverra fermentum ut ac est. Vestibulum in convallis erat.
+        </p>
+      </section>
 
-        <section class="top-layout">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScT9lVax_uGe4k-8JGzGQCCXEtkNxpb6MI57_R1VNsamvJjO_8QospsCX9FguE7Kxxtqs&usqp=CAU" alt="White and black cat named vacuum" width="300"/>
-                <h1>Meet Vacuum</h1>
-                <p>
-                  Sed ut ornare mauris, eu fermentum dui. Vestibulum non commodo felis, accumsan ornare massa. Etiam eu sapien tristique dolor varius gravida. Donec mi enim, condimentum.
-                </p>
-          </section>
+      <section class="top-layout">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/7/74/Pansy_-_SCAT_%40_Petsmart_Adoption_Centre_%28June_6_2016%29_%2827495412176%29.jpg"
+          alt="Black and white cat called truck"
+        />
+        <h1>Meet Truck</h1>
+        <p>
+          Curabitur consequat tortor sapien, et fringilla nibh bibendum sed.
+          Vivamus vitae neque eu nulla eleifend pretium. Morbi consectetur ut
+          ante id maximus. Proin erat quam.
+        </p>
+      </section>
 
-            <section class="bottom-layout">
-            <img src="https://www.stockvault.net/data/2022/01/23/290168/preview16.jpg" alt="Tortie cat mad called banana" width="400" height="300"/>
-                <h1>Meet Banana</h1>
-                <p>
-                  Sed ut ornare mauris, eu fermentum dui. Vestibulum non commodo felis, accumsan ornare massa. Etiam eu sapien tristique dolor varius gravida. Donec mi enim, condimentum.
-                </p>
-          </section>
+      <section class="top-layout">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScT9lVax_uGe4k-8JGzGQCCXEtkNxpb6MI57_R1VNsamvJjO_8QospsCX9FguE7Kxxtqs&usqp=CAU"
+          alt="White and black cat named vacuum"
+        />
+        <h1>Meet Vacuum</h1>
+        <p>
+          Sed ut ornare mauris, eu fermentum dui. Vestibulum non commodo felis,
+          accumsan ornare massa. Etiam eu sapien tristique dolor varius gravida.
+          Donec mi enim, condimentum.
+        </p>
+      </section>
 
-          <section class="bottom-layout">  
-            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Brown_and_white_cat-_Flickr_-_Lisa_Zins.jpg" alt="White tabby cat named recycling" width="400" /> 
-                <h1>Meet Recycling</h1>
-                <p>
-                  Cras ultricies ac libero non condimentum. Nulla et dapibus tellus, ut molestie leo. Mauris vitae enim posuere tortor volutpat porttitor. Nunc pretium, risus eget efficitur.
-                </p>
-          </section>
-        </main>
-  
-  <footer>
-<p>&copy; Xin Deng Code 102</p>
-  </footer>
+      <section class="bottom-layout">
+        <img
+          src="https://www.stockvault.net/data/2022/01/23/290168/preview16.jpg"
+          alt="Tortie cat mad called banana"
+        />
+        <h1>Meet Banana</h1>
+        <p>
+          Sed ut ornare mauris, eu fermentum dui. Vestibulum non commodo felis,
+          accumsan ornare massa. Etiam eu sapien tristique dolor varius gravida.
+          Donec mi enim, condimentum.
+        </p>
+      </section>
 
-      </body>
+      <section class="bottom-layout">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Brown_and_white_cat-_Flickr_-_Lisa_Zins.jpg"
+          alt="White tabby cat named recycling"
+        />
+        <h1>Meet Recycling</h1>
+        <p>
+          Cras ultricies ac libero non condimentum. Nulla et dapibus tellus, ut
+          molestie leo. Mauris vitae enim posuere tortor volutpat porttitor.
+          Nunc pretium, risus eget efficitur.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; Xin Deng Code 102</p>
+    </footer>
+  </body>
 </html>
