@@ -2,55 +2,26 @@
 <html>
   <head>
     <title>Pawsitive Match</title>
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-
     <script src="script.js"></script>
+
+    <script>
+      giveUserACat();
+    </script>
+
+    <script>
+      guessCatNumber();
+    </script>
 
     <script>
       askName();
     </script>
 
-<script>
-  adoptOrNo();
-</script>
-
-<script>
-  usersAnswerHeader();
-</script>
-    <!-- <script> -->
-
-      alert("We have 10 new kittens ready for adoption!");
-      let userName = prompt("What is your name?");
-      console.log(userName);
-
-      let usersAnswer = prompt(
-        "Do you want to adopt our cats? Type Yes or No."
-      );
-
-      console.log("User typed: " + usersAnswer);
-
-      if (usersAnswer == "Yes") {
-        document.write(
-          "Welcome " +
-            userName +
-            "! Then please scroll down to check out some of our longest residents or click Adopt Now!"
-        );
-      } else if (usersAnswer == "No") {
-        document.write(
-          "Well " +
-            userName +
-            "... maybe you should google some dog adoption sites..."
-        );
-      } else {
-        document.write(
-          "Well " +
-            userName +
-            "... maybe cats are not suitable for you if you can't follow directions"
-        );
-      }
-    <!-- </script> -->
+    <script>
+      adoptOrNo();
+    </script>
 
 
     <header>
@@ -65,11 +36,6 @@
       </nav>
     </header>
 
-    <!-- <script>
-      if (usersAnswer == 'Yes') {
-        document.write("Glad you're here!")
-      }
-    </script> -->
     <script>
       belowHeader();
     </script>
@@ -140,12 +106,6 @@
       </section>
     </main>
 
-    <!-- <script>
-      if (usersAnswer == 'Yes') {
-        document.write("Go meet Truck")
-      }
-    </script> -->
-
     <script>
       footer();
     </script>
@@ -153,6 +113,7 @@
     <footer>
       <p>&copy; Xin Deng Code 102</p>
     </footer>
+
+ 
   </body>
-  
 </html>
